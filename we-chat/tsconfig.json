@@ -1,0 +1,16 @@
+// root tsconfig.json (for VS Code extension only)
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["ES2020"],
+    "outDir": "out",
+    "rootDir": "src",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src"]
+}
